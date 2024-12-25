@@ -15,4 +15,4 @@
 #### 6. The new population becomes the current population forming the next generation.
 
 
-$$P(i) = fittness(i)\over \sum_{all solutions k} f(k)$$
+$$P(i) = (fittness(i)\over \sum_{all solutions k} f(k))$$
