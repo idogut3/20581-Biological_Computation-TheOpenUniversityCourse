@@ -36,7 +36,8 @@ The Second idea I had was, to distinguish each repetitive state, by defining a v
 The last idea I had was the best one that worked perfectly, for anyone not familiar with hash algorithms, here is a short description of them:
 Hash algorithms are mathematical functions that take input data of any size and produce a fixed-size string of characters, typically a sequence of numbers and letters. This output, known as a hash or digest, is unique to the input data, meaning even small changes to the input will produce a significantly different hash. Hash algorithms are widely used in cryptography, data integrity checks, and password storage due to their ability to create a secure, irreversible representation of data.
 </p>
-I thought about many hash functions that might work, such as: SHA256 or maybe even the checksum function (like in linux) - but eventually I decided to implement a different one, a one that has it collision number (cases were 2 different imputs create the same hash value) at the lowest. Here it is:
+I thought about many hash functions that might work, such as: SHA256 or maybe even the checksum function (like in linux) - but eventually I decided to implement a different one, a one that has it's collision number at the lowest (A case were 2 different imputs create the same hash value).
+Here it is:
 
 ```python
 def compute_grid_unique_integer(grid):
