@@ -21,7 +21,7 @@ Create an genetic algorithm that finds the best Methuselahs in the "Game of life
 ### 6. The new population becomes the current population forming the next generation.
 ### 7. Repeat k times (until, asked for or reached a convergence).
 
-### Roulette Selection - A visual representation: 
+#### Roulette Selection - A visual representation: 
 ![](https://github.com/idogut3/20581-Biological_Computation-TheOpenUniversityCourse/blob/main/images_and_gifs/General%20Biology/RouletteSelection.png)
 
 ## Questions you might be thinking about:
