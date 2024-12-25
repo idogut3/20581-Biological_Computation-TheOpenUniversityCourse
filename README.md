@@ -15,4 +15,4 @@
 #### 6. The new population becomes the current population forming the next generation.
 
 
-$$P(i) = \frac{f_i}{\sum_{k \, \text{(all solutions k)}} f_k}$$
+$$P(i) = \frac{f(i)}{\sum_{k \, \text{(all solutions k)}} f(k)}$$
