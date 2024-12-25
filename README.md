@@ -9,7 +9,8 @@
 ## The Genetic Algorithm structure I created (type- Roulette Selection):
 ### 1. Start with a random population of n chromosomes (n grids which represent each starting configuration of a different Methuselah).
 ### 2. Compute the fitness of each chromosome in the population using the fittness function.
-#### In our case I defined the fitness function of each Methuselah i to be $$ fitness(i) = \sum_{generation = 0, until last generation it becomes static or repetitive} cells_alive(generation)} $$
+#### In our case I defined the fitness function of each Methuselah i to be 
+#### $$fitness(i) = \sum_{generation = 0, until last generation it becomes static or repetitive} cells_alive(generation)}$$
 ### 3. Calculate the probabilities of choosing the i'th configuration to be a parent (of another descendent configuration) 
 ### $$P(i) = \frac{fitness(i)}{\sum_{k \, \text{(all solutions k)}} fitness(k)}$$
 
