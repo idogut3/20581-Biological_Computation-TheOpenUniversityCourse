@@ -1,6 +1,6 @@
 # 20581-Biological_Computation-TheOpenUniversityCourse
 
-## Genetic Algorithm in the Game of life 🧬🧬🧬 (MMN12):
+## Genetic Algorithm in the Game of Life 🧬🧬🧬 (MMN12):
 
 ### Firstly, What is Conway's Game of Life?
 Conway's Game of Life is a cellular automaton created by the British mathematician John Conway in 1970. It is a zero-player game, meaning that once the initial state is set, the game evolves without any further input. The game is played on a grid of cells, each of which can be in one of two states: alive or dead.
