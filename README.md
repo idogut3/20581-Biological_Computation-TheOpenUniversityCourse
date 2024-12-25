@@ -5,7 +5,9 @@
 #### Create an genetic algorithm that finds the best Methuselahs in the "Game of life" (The 'best' starting configurations that live the longest and create as many cells alive throughout their existence (until they become either static or repeat themselves):
 ![](https://github.com/idogut3/20581-Biological_Computation-TheOpenUniversityCourse/blob/main/images_and_gifs/mmn12/GeneticEvolution_of_configuration1.gif)
 ![](https://github.com/idogut3/20581-Biological_Computation-TheOpenUniversityCourse/blob/main/images_and_gifs/mmn12/GeneticEvolution_of_configuration2.gif)
-
+https://github.com/idogut3/20581-Biological_Computation-TheOpenUniversityCourse/blob/main/images_and_gifs/mmn12/aliveCells100.png
+![](https://github.com/idogut3/20581-Biological_Computation-TheOpenUniversityCourse/blob/main/images_and_gifs/mmn12/aliveCells100.png)
+![](https://github.com/idogut3/20581-Biological_Computation-TheOpenUniversityCourse/blob/main/images_and_gifs/mmn12/lifetime100.png)
 ## The Genetic Algorithm structure I created (type- Roulette Selection):
 ### 1. Start with a random population of n chromosomes (n grids which represent each starting configuration of a different Methuselah).
 ### 2. Compute the fitness of each chromosome in the population using the fittness function.
