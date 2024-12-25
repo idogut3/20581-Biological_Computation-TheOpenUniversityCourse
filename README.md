@@ -116,12 +116,12 @@ def mutate(number):
     return 1 - number
 ```
 
-### 3. Why do you also choose "weak" individuals in the genetic algorithm?
+### 3. Why do you also choose "weak" individuals in the genetic algorithm? 🍃🌿🌷🌹🌸🌺
 In genetic algorithms, selecting weak individuals (those with lower fitness scores) plays an important role in maintaining genetic diversity and ensuring robust exploration of the solution space. While strong individuals (with advantageous phenotypes, or expressed solutions) dominate reproduction to improve the population's overall fitness, weaker individuals often carry genotypes— underlying encoded traits that may not currently contribute to fitness but hold latent potential. These traits can act like recessive genes in biology, becoming valuable when combined with other genotypes in future generations to produce superior offspring.
 
 By including weak individuals, the algorithm avoids premature convergence, where the population becomes too uniform and risks getting stuck in local optima. Weak individuals introduce less common genetic material into the pool, which can enhance adaptability, especially in problems with dynamic or complex fitness landscapes. Additionally, this strategy mimics the stochastic nature of evolution, where even less fit organisms occasionally survive and reproduce, leading to unexpected innovations. This balance between exploiting strong phenotypes and exploring diverse genotypes increases the algorithm’s ability to find global solutions efficiently.
 
-#### Genotypes and Phenotypes in nature, recessive inheritance in flowers of pea plants
+#### Genotypes and Phenotypes in nature, recessive inheritance in flowers of pea plants:
 ![](https://github.com/idogut3/20581-Biological_Computation-TheOpenUniversityCourse/blob/main/images_and_gifs/General%20Biology/Dominant-recessive_inheritance_-_flowers_of_pea_plants.png)
 
 
