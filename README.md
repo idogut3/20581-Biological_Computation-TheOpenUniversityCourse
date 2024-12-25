@@ -12,7 +12,7 @@
 #### In our case I defined the fitness function of each Methuselah i to be 
 #### $$fitness(i) = \sum_{generation}^\text{(all generations)} cellsAlive(generation)$$
 ### 3. Calculate the probabilities of choosing the i'th configuration to be a parent (of another descendent configuration) 
-### $$P(i) = \frac{fitness(i)}{\sum_{k}^text{(all solutions k)} fitness(k)}$$
+### $$P(i) = \frac{fitness(i)}{\sum_{k}^{text{(all solutions k)}} fitness(k)}$$
 
 ### 4. Choose 2n parents using the probabilities we calculated.
 ### 5. Mate the parents in the pool repeat until n offspring are created in the new population.
