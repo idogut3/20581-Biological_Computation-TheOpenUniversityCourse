@@ -37,6 +37,7 @@ The last idea I had was the best one that worked perfectly, for anyone not famil
 Hash algorithms are mathematical functions that take input data of any size and produce a fixed-size string of characters, typically a sequence of numbers and letters. This output, known as a hash or digest, is unique to the input data, meaning even small changes to the input will produce a significantly different hash. Hash algorithms are widely used in cryptography, data integrity checks, and password storage due to their ability to create a secure, irreversible representation of data.
 </p>
 I thought about many hash functions that might work, such as: SHA256 or maybe even the checksum function (like in linux) - but eventually I decided to implement a different one, a one that has it collision number (cases were 2 different imputs create the same hash value) at the lowest. Here it is:
+
 ```python
 def compute_grid_unique_integer(grid):
     """
@@ -45,6 +46,8 @@ def compute_grid_unique_integer(grid):
     """
     binary_string = ''.join(str(cell) for row in grid for cell in row)
     return int(binary_string, 2)
+```
+
 <p>
 Based on that idea in mind, I used a list that contained the previous-n hashes calculated by my hash function (which I will later explain what I used) of the each previous generation-grid.
 Continuously, each generation, I would calculate my current generation-grid hash, and check if the hash is the same as any other hash I stored in the list, later on (if it wasn't in the list, i.e. not repetitive) add it to the previous previous-n hashes and count the current alive cells. This solution is sufficient with $$Θ(n)$$ space complexity and time complexity.
