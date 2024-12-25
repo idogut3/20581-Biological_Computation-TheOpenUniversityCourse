@@ -11,7 +11,7 @@
 ### 2. Compute the fitness of each chromosome in the population using the fittness function.
 #### In our case I defined the fitness function of each Methuselah i to be 
 #### $$fitness(i) = \sum_{generation}^\text{(all generations)} cellsAlive(generation)$$
-### 3. Calculate the probabilities of choosing the i'th configuration to be a parent (of another descendent configuration) 
+### 3. Calculate the probabilities of choosing the i'th configuration to be a parent (of another descendent configuration), using a normalisation function   
 ### $$P(i) = \frac{fitness(i)}{\sum_{k \, \text{(all solutions k)}} fitness(k)}$$
 
 ### 4. Choose 2n parents using the probabilities we calculated.
