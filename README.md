@@ -75,7 +75,7 @@ def compute_grid_unique_integer(grid):
     return int(binary_string, 2)
 ```
 
-### 2. How is the mating Process of each grid looks like?  🦠👩‍⚕🧬🩺💉
+### 2. How does the mating Process of each grid looks like?  🦠👩‍⚕🧬🩺💉
 <p>
 Each grid-offspring is created using two parents. Each parent contributes equally to the offspring, with both having an equal chance of influencing the child's traits. This ensures that the genetic diversity from both parents is preserved and balanced, giving both parents an equal opportunity to pass on their beneficial characteristics to the next generation.
 </p>
