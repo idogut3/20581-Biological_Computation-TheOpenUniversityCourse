@@ -7,7 +7,7 @@ Create an genetic algorithm that finds the best Methuselahs in the "Game of life
 ![](https://github.com/idogut3/20581-Biological_Computation-TheOpenUniversityCourse/blob/main/images_and_gifs/mmn12/GeneticEvolution_of_configuration1.gif)
 ![](https://github.com/idogut3/20581-Biological_Computation-TheOpenUniversityCourse/blob/main/images_and_gifs/mmn12/GeneticEvolution_of_configuration2.gif)
 
-## The Genetic Algorithm structure I created (type- Roulette Selection):
+## The Genetic Algorithm structure I created (type - Roulette Selection):
 ### 1. Start with a random population of n chromosomes (n grids which represent each starting configuration of a different Methuselah).
 ### 2. Compute the fitness of each chromosome in the population using the fittness function.
 #### In our case I defined the fitness function of each Methuselah i to be:
