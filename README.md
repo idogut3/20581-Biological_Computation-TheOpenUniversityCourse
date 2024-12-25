@@ -25,7 +25,8 @@ Create an genetic algorithm that finds the best Methuselahs in the "Game of life
 ![](https://github.com/idogut3/20581-Biological_Computation-TheOpenUniversityCourse/blob/main/images_and_gifs/General%20Biology/RouletteSelection.png)
 
 ## Questions you might be thinking about:
-### 1. How did you implement the cellsAlive() function? How did you figure out when to stop? How did you define whats a repetitive state (and follows from that how did you define a static state?)? 🦠🦠🦠
+### 1. How did you implement the cellsAlive() function? 
+##### How did you figure out when to stop? How did you define whats a repetitive state (and follows from that how did you define a static state?)? 🦠🦠🦠
 #### Well, the cellsAlive() function is a tricky function, you need to count the current cells alive in the grid but also have to stop when you reach a repetitive state. 
 <p> 
 The first idea I thought about is to just keep a list of my last n grids representing my previous n-genertaions though that is an expensive approach in terms of Space complexity and Time Complexity assuming I would need a list of n-previous grids the Space complexity would be $$Θ(n³)$$ and in terms of Time complexity, any new generation I would need to check the current grid is equal to any of my last n grids, causing me to need a $$Θ(n³)$$ function that checks each new generation that it was not previously equal to any of my last n-generations. The expensiveness of the algorithm caused me to recoil from using it, so I tried to come up with a better idea.
