@@ -9,10 +9,11 @@
 ## The Genetic Algorithm structure I created (type- Roulette Selection):
 ### 1. Start with a random population of n chromosomes (n grids which represent each starting configuration of a different Methuselah).
 ### 2. Compute the fitness of each chromosome in the population using the fittness function.
-#### In our case I defined the fitness function of each Methuselah i to be 
+#### In our case I defined the fitness function of each Methuselah i to be:
 #### $$fitness(i) = \sum_{generation}^\text{(all generations)} cellsAlive(generation)$$
-### 3. Calculate the probabilities of choosing the i'th configuration to be a parent (of another descendent configuration), using a normalisation function   
-### $$P(i) = \frac{fitness(i)}{\sum_{k \, \text{(all solutions k)}} fitness(k)}$$
+### 3. Calculate the probabilities of choosing the i'th configuration to be a parent (of another descendent configuration), using a normalisation function
+#### In our case I defined the probability of grid(i) to become a parent as follows:    
+#### $$P(i) = \frac{fitness(i)}{\sum_{k \, \text{(all solutions k)}} fitness(k)}$$
 
 ### 4. Choose 2n parents using the probabilities we calculated.
 ### 5. Mate the parents in the pool repeat until n offspring are created in the new population.
