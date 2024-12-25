@@ -21,6 +21,9 @@ Create an genetic algorithm that finds the best Methuselahs in the "Game of life
 ### 6. The new population becomes the current population forming the next generation.
 ### 7. Repeat k times (until, asked for or reached a convergence).
 
+### Roulette Selection - A visual representation: 
+![](https://github.com/idogut3/20581-Biological_Computation-TheOpenUniversityCourse/blob/main/images_and_gifs/General%20Biology/RouletteSelection.png)
+
 ## Questions you might be thinking about:
 ### 1. How did you implement the cellsAlive() function? How did you figure out when to stop? How did you define whats a repetitive state (and follows from that how did you define a static state?)? 🦠🦠🦠
 #### Well, the cellsAlive() function is a tricky function, you need to count the current cells alive in the grid but also have to stop when you reach a repetitive state. 
