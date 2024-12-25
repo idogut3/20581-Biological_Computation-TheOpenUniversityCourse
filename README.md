@@ -1,6 +1,20 @@
 # 20581-Biological_Computation-TheOpenUniversityCourse
 
-## Genetic Algorithm in the game of life 🧬🧬🧬 (MMN12): 
+## Genetic Algorithm in the Game of life 🧬🧬🧬 (MMN12):
+
+### Firstly, What is Conway's Game of Life?
+Conway's Game of Life is a cellular automaton created by the British mathematician John Conway in 1970. It is a zero-player game, meaning that once the initial state is set, the game evolves without any further input. The game is played on a grid of cells, each of which can be in one of two states: alive or dead.
+
+The game's evolution is determined by a set of simple rules based on the number of live neighbors around a cell. The game takes place in discrete time steps, with the state of the grid being updated in each step according to the following rules:
+
+Rules:
+1. Any live cell with two or three live neighbors survives to the next generation.
+2. Any dead cell with exactly three live neighbors becomes a live cell (birth).
+3. All other live cells die (due to loneliness or overpopulation).
+4. All other dead cells remain dead. 
+
+![](https://github.com/idogut3/20581-Biological_Computation-TheOpenUniversityCourse/blob/main/images_and_gifs/General%20Biology/Game_of_Life/conway's%20game%20of%20life%20rules.png)
+
 ### Task:
 Create an genetic algorithm that finds the best Methuselahs in the "Game of life" (The 'best' starting configurations that live the longest and create as many cells alive throughout their existence (until they become either static or repeat themselves):
 
