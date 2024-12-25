@@ -16,7 +16,7 @@ Rules:
 ![](https://github.com/idogut3/20581-Biological_Computation-TheOpenUniversityCourse/blob/main/images_and_gifs/General%20Biology/Game_of_Life/conway's%20game%20of%20life%20rules.png)
 
 ### Task:
-Create a genetic algorithm that finds the best Methuselahs in the "Game of Life" (The 'best' starting configurations that live the longest and create as many cells alive throughout their existence (until they become either static or repeat themselves):
+Create a genetic algorithm that finds the best Methuselahs in the "Game of Life" (The 'best' starting configurations that live the longest and create as many cells alive throughout their existence (until they become either static or repeat themselves)):
 
 ![](https://github.com/idogut3/20581-Biological_Computation-TheOpenUniversityCourse/blob/main/images_and_gifs/mmn12/GeneticEvolution_of_configuration1.gif)
 ![](https://github.com/idogut3/20581-Biological_Computation-TheOpenUniversityCourse/blob/main/images_and_gifs/mmn12/GeneticEvolution_of_configuration2.gif)
