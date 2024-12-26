@@ -144,11 +144,11 @@ By including weak individuals, the algorithm avoids premature convergence, where
 
 #### Results:
 ##### 30 Generations
-![](https://github.com/idogut3/20581-Biological_Computation-TheOpenUniversityCourse/blob/main/images_and_gifs/mmn12/aliveCells30.png)
-![](https://github.com/idogut3/20581-Biological_Computation-TheOpenUniversityCourse/blob/main/images_and_gifs/mmn12/lifetime30.png)
+![](https://github.com/idogut3/20581-Biological_Computation-TheOpenUniversityCourse/blob/main/images_and_gifs/mmn12/AliveCells30GenerationsMutaion%200.007.png)
+![](https://github.com/idogut3/20581-Biological_Computation-TheOpenUniversityCourse/blob/main/images_and_gifs/mmn12/Lifetime30GenerationsMutaion%200.007.png)
 
 ##### 100 Generations
-![](https://github.com/idogut3/20581-Biological_Computation-TheOpenUniversityCourse/blob/main/images_and_gifs/mmn12/aliveCells100.png)
-![](https://github.com/idogut3/20581-Biological_Computation-TheOpenUniversityCourse/blob/main/images_and_gifs/mmn12/lifetime100.png)
+![](https://github.com/idogut3/20581-Biological_Computation-TheOpenUniversityCourse/blob/main/images_and_gifs/mmn12/AliveCells100GenerationsMutaion%200.007.png)
+![](https://github.com/idogut3/20581-Biological_Computation-TheOpenUniversityCourse/blob/main/images_and_gifs/mmn12/Lifetime100GenerationsMutaion%200.007.png)
 
 
